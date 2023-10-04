@@ -1,0 +1,112 @@
+.container {
+  background-color: rgb(248, 225, 225);
+}
+.city_card {
+  border: 2px solid white;
+  border-radius: 15px;
+  padding: 10px;
+  background-color: white;
+}
+
+.rent_heart_btn {
+  z-index: 1;
+  position: absolute;
+}
+
+.city_img {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+  display: block;
+  border-radius: 15px;
+  height: 250px;
+}
+
+/* Additional styles for the "rent_heart_btn" class */
+
+.img_btn_1 {
+  position: absolute;
+  top: -230px;
+  margin-left: 20px;
+  z-index: 1;
+  background-color: white;
+  color: blue;
+  padding: 5px 7px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.img_btn_2 {
+  position: absolute;
+  top: -230px;
+  left: 400px;
+  z-index: 1;
+  background-color: white;
+  color: blue;
+  padding: 5px 7px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.grid-container {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: auto auto auto;
+
+  padding: 20px;
+}
+.all_rooms {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 20px;
+}
+.item_text {
+  margin: 0px;
+}
+.read_btn {
+  border: 1px solid blue;
+  color: blue;
+  padding: 5px 7px;
+  background-color: white;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.price_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.price {
+  display: flex;
+  align-items: center;
+}
+.price h3 {
+  color: blue;
+}
+.showmore_btn {
+  align-items: center;
+  text-align: center;
+}
+.show_btn {
+  padding: 5px 7px;
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.c_btn {
+  padding: 10px;
+  border-radius: 10px;
+  border-style: none;
+  margin-left: 25px;
+  cursor: pointer;
+}
+.c_btn:active,
+.c_btn:hover {
+  background-color: blue;
+  color: white;
+}
+
+.heading {
+  text-align: center;
+}
